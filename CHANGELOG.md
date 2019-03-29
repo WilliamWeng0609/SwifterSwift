@@ -4,6 +4,8 @@ The changelog for **SwifterSwift**. Also see the [releases](https://github.com/S
 # Upcoming release
 
 ### Added
+- **Optional**
+  - Conformance to `Comparable`. [#647](https://github.com/SwifterSwift/SwifterSwift/pull/647) by [guykogus](https://github.com/guykogus)
 - **FileManager**
   - `createTemporaryDirectory()` to create a directory for saving temporary files. [#615](https://github.com/SwifterSwift/SwifterSwift/pull/615) by [guykogus](https://github.com/guykogus)
 - **UILabel**
@@ -13,7 +15,7 @@ The changelog for **SwifterSwift**. Also see the [releases](https://github.com/S
 - **Sequence**
   - Added `duplicates()` for getting the duplicated elements in a sequence. [#605](https://github.com/SwifterSwift/SwifterSwift/pull/605) by [dylancfe15](https://github.com/dylancfe15)
 - **Date**
-- Added `tomorrow` computed property to get tomorrow's date avoiding calling `adding(_:value:)` function. (Completes PR #578) [#587](https://github.com/SwifterSwift/SwifterSwift/pull/587) by [AlexeiGitH](https://github.com/AlexeiGitH)
+  - Added `tomorrow` computed property to get tomorrow's date avoiding calling `adding(_:value:)` function. (Completes PR #578) [#587](https://github.com/SwifterSwift/SwifterSwift/pull/587) by [AlexeiGitH](https://github.com/AlexeiGitH)
   - `random(in:)` and `random(in:using:)` to generate random dates using the built-in random functions added to Swift 4.2. [#576](https://github.com/SwifterSwift/SwifterSwift/pull/576/files) by [guykogus](https://github.com/guykogus)
 - **Dictionary**
   - Added `Dictionary[path:]` subscript for deep fetching/setting nested values. [#574](https://github.com/SwifterSwift/SwifterSwift/pull/573) by [@calebkleveter](https://github.com/calebkleveter)
@@ -29,7 +31,7 @@ The changelog for **SwifterSwift**. Also see the [releases](https://github.com/S
 - **UIActivity**
   - Added `ActivityType` constants for iCloud Drive, WhatsApp, LinkedIn and XING. [#580](https://github.com/SwifterSwift/SwifterSwift/pull/580) by [staffler-xyz](https://github.com/staffler-xyz)
 - **MKMapView**
-  - Added 'register(annotationViewWithClass:)`, `dequeueReusableAnnotationView(withClass:)` and `dequeueReusableAnnotationView(withClass:annotation)` methods. [#629](https://github.com/SwifterSwift/SwifterSwift/pull/629) by [staffler-xyz](https://github.com/staffler-xyz)
+  - Added `register(annotationViewWithClass:)`, `dequeueReusableAnnotationView(withClass:)` and `dequeueReusableAnnotationView(withClass:annotation)` methods. [#629](https://github.com/SwifterSwift/SwifterSwift/pull/629) by [staffler-xyz](https://github.com/staffler-xyz)
 ### Changed
 - **Examples**:
   - Replace Examples.md with Examples.playground to let users try some examples out of extensions. [#596](https://github.com/SwifterSwift/SwifterSwift/pull/596) by [maxxx777](https://github.com/maxxx777)
